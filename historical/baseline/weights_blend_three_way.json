@@ -1,0 +1,5 @@
+{
+  "extra_trees": 0.6,
+  "catboost": 0.23,
+  "lightgbm": 0.17
+}

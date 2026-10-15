@@ -1,0 +1,6 @@
+{
+  "extra_trees": 0.58,
+  "random_forest": 0.12,
+  "catboost": 0.15,
+  "lightgbm": 0.15
+}

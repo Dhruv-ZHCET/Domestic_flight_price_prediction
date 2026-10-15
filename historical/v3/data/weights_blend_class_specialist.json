@@ -1,0 +1,20 @@
+{
+  "Economy": {
+    "extra_trees_tuned": 0.39774768927704923,
+    "extra_trees": 0.26951255293117865,
+    "random_forest": 0.09367580562812321,
+    "bagged_trees": 3.704520821230946e-19,
+    "lightgbm": 0.0983532214935816,
+    "catboost": 0.14071073067006737,
+    "xgboost": 7.610022133276406e-19
+  },
+  "Business": {
+    "extra_trees_tuned": 0.22554662937737555,
+    "extra_trees": 0.1551769305248722,
+    "random_forest": 0.0,
+    "bagged_trees": 0.0,
+    "lightgbm": 0.315820966752433,
+    "catboost": 0.30345547334531936,
+    "xgboost": 3.4316224710747887e-18
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "extra_trees_tuned": 0.28039995101546344,
+  "extra_trees": 0.17071960753307697,
+  "random_forest": 1.6149879883640851e-19,
+  "bagged_trees": 0.0,
+  "lightgbm": 0.2728926313235276,
+  "catboost": 0.2759878101279321,
+  "xgboost": 0.0
+}

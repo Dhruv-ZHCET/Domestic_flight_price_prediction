@@ -1,0 +1,47 @@
+{
+  "model_configurations": {
+    "et180": {
+      "algo": "et",
+      "trees": 180,
+      "depth": 24,
+      "leaf": 3,
+      "features": 0.85
+    },
+    "lgb260": {
+      "algo": "lgb",
+      "trees": 260,
+      "depth": 7,
+      "lr": 0.085,
+      "leaves": 25,
+      "leaf": 35,
+      "l2": 10
+    },
+    "rf220": {
+      "algo": "rf",
+      "trees": 220,
+      "depth": 15,
+      "leaf": 3,
+      "features": 0.8
+    },
+    "cat420": {
+      "algo": "cat",
+      "trees": 420,
+      "depth": 7,
+      "lr": 0.075,
+      "l2": 10
+    }
+  },
+  "featured_blend": {
+    "extra_trees_weight": 0.6,
+    "lightgbm_weight": 0.4,
+    "total_trees": 440,
+    "single_full_train_fit": true,
+    "no_price_lookups": true,
+    "no_interpolation": true
+  },
+  "randomforest_blend": {
+    "rf_weight": 0.5,
+    "lightgbm_weight": 0.5,
+    "total_trees": 480
+  }
+}

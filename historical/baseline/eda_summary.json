@@ -1,0 +1,188 @@
+{
+  "train_rows": 15589,
+  "test_rows": 3898,
+  "price_min": 3801,
+  "price_mean": 29816.6955545577,
+  "price_median": 10183.0,
+  "price_max": 323177,
+  "price_p99": 185836.72,
+  "train_duplicate_records_excluding_id": 279,
+  "test_new_flight_record_pct": 0.9,
+  "test_new_flight_record_count": 35,
+  "airline_missing_prefix_mappable": 3089,
+  "airline_missing_total": 3089,
+  "test_airline_prefix_unseen": [
+    "BG"
+  ],
+  "train_test_price_unavailable": true,
+  "test_id_matches_submission": true,
+  "class_summary": {
+    "size": {
+      "Business": 6380,
+      "Economy": 9209
+    },
+    "min": {
+      "Business": 15544,
+      "Economy": 3801
+    },
+    "median": {
+      "Business": 38546.0,
+      "Economy": 7587.0
+    },
+    "mean": {
+      "Business": 60126.6,
+      "Economy": 8818.0
+    },
+    "std": {
+      "Business": 46414.6,
+      "Economy": 4669.8
+    },
+    "max": {
+      "Business": 323177,
+      "Economy": 74691
+    }
+  },
+  "num_shift": [
+    {
+      "feature": "days_left",
+      "train_median": 22.0,
+      "test_median": 22.0,
+      "KS_statistic": 0.0153,
+      "KS_pvalue": 0.45183,
+      "train_missing_pct": 0.0,
+      "test_missing_pct": 0.0
+    },
+    {
+      "feature": "duration",
+      "train_median": 2.5,
+      "test_median": 2.5,
+      "KS_statistic": 0.0099,
+      "KS_pvalue": 0.96616,
+      "train_missing_pct": 19.85,
+      "test_missing_pct": 19.91
+    }
+  ],
+  "cat_shift": [
+    {
+      "feature": "airline",
+      "Jensen_Shannon_distance": 0.034598900084157835,
+      "unseen_test_categories": 1,
+      "train_distinct": 19,
+      "test_distinct": 18
+    },
+    {
+      "feature": "flight_prefix",
+      "Jensen_Shannon_distance": 0.033762301274700424,
+      "unseen_test_categories": 1,
+      "train_distinct": 19,
+      "test_distinct": 18
+    },
+    {
+      "feature": "source_city",
+      "Jensen_Shannon_distance": 0.01691461901534771,
+      "unseen_test_categories": 0,
+      "train_distinct": 6,
+      "test_distinct": 6
+    },
+    {
+      "feature": "destination_city",
+      "Jensen_Shannon_distance": 0.012647143382874522,
+      "unseen_test_categories": 0,
+      "train_distinct": 6,
+      "test_distinct": 6
+    },
+    {
+      "feature": "departure_time",
+      "Jensen_Shannon_distance": 0.01947228574484277,
+      "unseen_test_categories": 0,
+      "train_distinct": 6,
+      "test_distinct": 6
+    },
+    {
+      "feature": "arrival_time",
+      "Jensen_Shannon_distance": 0.02787855076520622,
+      "unseen_test_categories": 0,
+      "train_distinct": 6,
+      "test_distinct": 6
+    },
+    {
+      "feature": "stops",
+      "Jensen_Shannon_distance": 0.005580532674577193,
+      "unseen_test_categories": 0,
+      "train_distinct": 3,
+      "test_distinct": 3
+    },
+    {
+      "feature": "flight_class",
+      "Jensen_Shannon_distance": 0.007614185465768995,
+      "unseen_test_categories": 0,
+      "train_distinct": 2,
+      "test_distinct": 2
+    },
+    {
+      "feature": "route",
+      "Jensen_Shannon_distance": 0.03279478896474158,
+      "unseen_test_categories": 0,
+      "train_distinct": 30,
+      "test_distinct": 30
+    }
+  ],
+  "mi": [
+    {
+      "feature": "route",
+      "MI_log_price": 2.08224614772354
+    },
+    {
+      "feature": "duration",
+      "MI_log_price": 1.3016184311438486
+    },
+    {
+      "feature": "destination_city",
+      "MI_log_price": 1.1736465954506805
+    },
+    {
+      "feature": "source_city",
+      "MI_log_price": 1.086816586899587
+    },
+    {
+      "feature": "flight_prefix",
+      "MI_log_price": 1.081562063440111
+    },
+    {
+      "feature": "time_pair",
+      "MI_log_price": 0.7909176436337226
+    },
+    {
+      "feature": "airline",
+      "MI_log_price": 0.7886093283557356
+    },
+    {
+      "feature": "flight_class",
+      "MI_log_price": 0.6293869793993982
+    },
+    {
+      "feature": "days_left",
+      "MI_log_price": 0.5204630191042421
+    },
+    {
+      "feature": "stops",
+      "MI_log_price": 0.49799329426191985
+    },
+    {
+      "feature": "departure_time",
+      "MI_log_price": 0.30379161595914894
+    },
+    {
+      "feature": "arrival_time",
+      "MI_log_price": 0.3017396605878231
+    },
+    {
+      "feature": "airline_missing",
+      "MI_log_price": 0.0021571828934665582
+    },
+    {
+      "feature": "duration_missing",
+      "MI_log_price": 0.001178215620546208
+    }
+  ]
+}

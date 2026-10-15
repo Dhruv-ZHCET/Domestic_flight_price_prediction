@@ -1,0 +1,7 @@
+method,public_kaggle_r2,evidence,reproducibility_note
+V3 25% interpolation blend,0.95729,user-provided Kaggle result earlier in this conversation,Reproducible code in historical/v3
+Exact-match lookup ensemble,0.95716,user-provided Kaggle result earlier in this conversation,Reproducible code in historical/v3
+Previous best prior to lookup,0.95694,user-provided Kaggle result earlier in this conversation,Historical files; identity may require matching to submission
+High-round Optuna equal DART3,0.95885,2026-10-15 user leaderboard screenshot archive; filename submission_highround_optuna_equal_dart3.csv,Submission-specific source not provided; hyperparameters unavailable
+Business augmented XGBoost,0.95881,2026-10-15 user leaderboard screenshot archive; filename submission_business_augmented_xgb.csv,Submission-specific source not provided; hyperparameters unavailable
+Business equal blend / one-hot variants,0.95803,2026-10-15 user leaderboard screenshot archive,Submission-specific source not provided

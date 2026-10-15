@@ -1,0 +1,3 @@
+feature,train_median,test_median,KS_statistic,KS_pvalue,train_missing_pct,test_missing_pct
+days_left,22.0,22.0,0.0153,0.45183,0.0,0.0
+duration,2.5,2.5,0.0099,0.96616,19.85,19.91

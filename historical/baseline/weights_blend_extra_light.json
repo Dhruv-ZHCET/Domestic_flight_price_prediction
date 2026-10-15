@@ -1,0 +1,4 @@
+{
+  "extra_trees": 0.65,
+  "lightgbm": 0.35
+}

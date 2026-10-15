@@ -1,0 +1,10 @@
+feature,Jensen_Shannon_distance,unseen_test_categories,train_distinct,test_distinct
+airline,0.034598900084157835,1,19,18
+flight_prefix,0.033762301274700424,1,19,18
+route,0.03279478896474158,0,30,30
+arrival_time,0.02787855076520622,0,6,6
+departure_time,0.01947228574484277,0,6,6
+source_city,0.01691461901534771,0,6,6
+destination_city,0.012647143382874522,0,6,6
+flight_class,0.007614185465768995,0,2,2
+stops,0.005580532674577193,0,3,3

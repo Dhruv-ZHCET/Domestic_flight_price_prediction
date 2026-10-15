@@ -1,0 +1,47 @@
+{
+  "global_weights": {
+    "extra_trees_tuned": 0.28039995101546344,
+    "extra_trees": 0.17071960753307697,
+    "random_forest": 1.6149879883640851e-19,
+    "bagged_trees": 0.0,
+    "lightgbm": 0.2728926313235276,
+    "catboost": 0.2759878101279321,
+    "xgboost": 0.0
+  },
+  "class_weights": {
+    "Economy": {
+      "extra_trees_tuned": 0.39774768927704923,
+      "extra_trees": 0.26951255293117865,
+      "random_forest": 0.09367580562812321,
+      "bagged_trees": 3.704520821230946e-19,
+      "lightgbm": 0.0983532214935816,
+      "catboost": 0.14071073067006737,
+      "xgboost": 7.610022133276406e-19
+    },
+    "Business": {
+      "extra_trees_tuned": 0.22554662937737555,
+      "extra_trees": 0.1551769305248722,
+      "random_forest": 0.0,
+      "bagged_trees": 0.0,
+      "lightgbm": 0.315820966752433,
+      "catboost": 0.30345547334531936,
+      "xgboost": 3.4316224710747887e-18
+    }
+  },
+  "meta_crossfit_global": {
+    "rmse": 10219.40869990037,
+    "mae": 3501.9540102725455,
+    "r2": 0.9317808164134834,
+    "rmsle": 0.14255903046373736
+  },
+  "meta_crossfit_class": {
+    "rmse": 10213.274895013332,
+    "mae": 3462.192734712325,
+    "r2": 0.9318626836910908,
+    "rmsle": 0.1375443009322753
+  },
+  "bootstrap_paired_ci_blend_minus_extra_rmse": [
+    -502.2200612319379,
+    -185.03219513983493
+  ]
+}
